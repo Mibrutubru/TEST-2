@@ -1,0 +1,22 @@
+:root{
+  --bg:#ff0000;
+  --card:#ff0000;
+  --accent:#ff0000;
+  --muted:#ff0000;
+  --text:#00ff44;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Arial,Helvetica,sans-serif;background:linear-gradient(180deg,var(--bg),#071021);color:var(--text);margin:0;line-height:1.5}
+.container{max-width:920px;margin:0 auto;padding:28px}
+.hero{padding:64px 0;background:radial-gradient(circle at 10% 20%, rgba(255,184,107,0.06), transparent 20%), linear-gradient(180deg, rgba(255,184,107,0.02), transparent);text-align:center}
+.hero h1{font-size:2.2rem;margin:0 0 12px}
+.lead{color:var(--muted);font-size:1.05rem}
+.cta{display:inline-block;margin-top:18px;padding:12px 20px;background:var(--accent);color:#081126;border-radius:8px;text-decoration:none;font-weight:700}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03);padding:20px;margin:18px 0;border-radius:12px}
+.card h2{margin-top:0}
+.note{color:var(--muted)}
+ul,ol{margin-left:18px}
+details summary{cursor:pointer;color:var(--accent);font-weight:600}
+.footer{opacity:0.9;font-size:0.9rem;text-align:center}
+
+@media (max-width:600px){.hero h1{font-size:1.5rem}.container{padding:18px}}
