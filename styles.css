@@ -20,3 +20,8 @@ details summary{cursor:pointer;color:var(--accent);font-weight:600}
 .footer{opacity:0.9;font-size:0.9rem;text-align:center}
 
 @media (max-width:600px){.hero h1{font-size:1.5rem}.container{padding:18px}}
+
+/* Hero image styles (responsive) */
+.hero-image-wrap{display:flex;justify-content:center;margin:12px 0}
+.hero-image{max-width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.45)}
+
